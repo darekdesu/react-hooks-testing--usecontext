@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  max-width: 800px;
+}
+
+.box {
+  background-color: #adcbe3;
+  border: 3px solid #2a4d69;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.box > .box {
+  background-color: #e7eff6;
+}
+
+.box h1,
+.box h2,
+.box h3 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
