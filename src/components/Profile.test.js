@@ -1,14 +1,14 @@
 import React from "react";
-import { render, fireEvent, wait } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 
 import UserProviderMock from "../hooks/UserProviderMock";
-import UserDetails from "./UserDetails";
+import Profile from "./Profile";
 
 const createContainer = ({ userProviderProps }) =>
   render(
     <UserProviderMock {...userProviderProps}>
-      <UserDetails />
+      <Profile />
     </UserProviderMock>
   );
 

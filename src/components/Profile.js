@@ -9,11 +9,11 @@ export default () => {
 
   const handleChange = () => {
     setUserName(inputName.current.value);
-    inputName.current.value = defaultInputName; // reset input after submit
+    inputName.current.value = defaultInputName; // resets input after submit
   };
 
   return (
-    <div className="box" data-testid="UserDetailsComponent">
+    <div className="box" data-testid="ProfileComponent">
       <h3>&lt;Profile&gt;</h3>
       <img alt="avatar" src={user.image} />
       <h3>Current name: {user.name}</h3>

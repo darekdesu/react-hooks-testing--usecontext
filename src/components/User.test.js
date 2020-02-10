@@ -26,6 +26,6 @@ test("should render initial text", () => {
 test("should render UserDetails and Languange components", () => {
   const { getByTestId } = createContainer();
 
-  expect(getByTestId("UserDetailsComponent")).toBeInTheDocument();
+  expect(getByTestId("ProfileComponent")).toBeInTheDocument();
   expect(getByTestId("LanguageComponent")).toBeInTheDocument();
 });

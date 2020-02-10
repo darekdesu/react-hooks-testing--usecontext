@@ -9,7 +9,7 @@ import User from "./components/User";
 const externalData = {
   language: "en",
   user: {
-    name: "Garfield",
+    name: "Jerry",
     image: "cat.jpg"
   }
 };
